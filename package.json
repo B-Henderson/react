@@ -1,0 +1,22 @@
+{
+  "name": "reactgame",
+  "version": "0.0.1",
+  "description": "react game tutorial",
+  "main": "main.js",
+  "scripts": {
+    "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js"
+  },
+  "author": "ben henderson",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "webpack": "^1.13.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-react": "^6.16.0",
+    "html-webpack-plugin": "^2.24.1",
+    "webpack": "^1.13.3"
+  }
+}
